@@ -95,6 +95,13 @@ redis:7.4.0-alpine3.20
 
 # debian
 
+# 12.12
+
+debian:bookworm
+debian:bookworm-20250908
+# debian:bookworm-12.12
+# debian:bookworm-12⁠
+
 # 12.7
 
 # debian:bookworm
@@ -218,10 +225,10 @@ centos:centos8
 # --platform=linux/arm64 golang:1.13.15-stretch
 # --platform=linux/arm64 golang:1.13.15-alpine3.12
 
-golang:1.22.7
-# golang:1.22.7-bookworm
+# golang:1.22.7
+golang:1.22.7-bookworm
 # golang:1.22.7-bullseye
-golang:1.22.7-alpine3.20
+# golang:1.22.7-alpine3.20
 # golang:1.22.7-alpine3.19
 
 # golang:1.16.15-stretch
@@ -252,7 +259,7 @@ golang:1.22.7-alpine3.20
 # bitnami/etcd:3.5-debian-12
 
 # bitnami/etcd:3.5.21
-bitnami/etcd:3.5
+# bitnami/etcd:3.5
 # bitnami/etcd:3.5-debian-12
 
 
@@ -268,4 +275,4 @@ bitnami/etcd:3.5
 
 
 # ------ sphinx ------
-sphinxdoc/sphinx:4.5.0
+# sphinxdoc/sphinx:4.5.0
