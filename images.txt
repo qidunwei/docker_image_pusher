@@ -19,10 +19,10 @@
 # postgres:16.4-bullseye
 # postgres:16.4-bookworm
 
-postgres:16.11-alpine3.23
+# postgres:16.11-alpine3.23
 
-postgres:17.7
-postgres:17.7-alpine3.23
+# postgres:17.7
+# postgres:17.7-alpine3.23
 
 --platform=linux/arm64 postgres:17.7
 --platform=linux/arm64 postgres:17.7-alpine3.23
@@ -256,11 +256,11 @@ postgres:17.7-alpine3.23
 # --platform=linux/arm64 golang:1.18.10-buster
 # --platform=linux/arm64 golang:1.18.10-alpine3.17
 
-golang:1.22.12-alpine3.21
-golang:1.22.12-alpine3.20
-golang:1.22.12-bookworm
-golang:1.24.12-alpine3.23
-golang:1.24.12-trixie
+# golang:1.22.12-alpine3.21
+# golang:1.22.12-alpine3.20
+# golang:1.22.12-bookworm
+# golang:1.24.12-alpine3.23
+# golang:1.24.12-trixie
 
 
 
@@ -294,3 +294,10 @@ apache/kafka:4.1.1
 
 # ------ sphinx ------
 # sphinxdoc/sphinx:4.5.0
+
+# ------ 2026-03-28 -------
+# portainer/portainer-ce:alpine-sts
+portainer/portainer-ce:2.40.0-alpine
+portainer/portainer-ce:2.40.0
+
+
