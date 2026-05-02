@@ -300,7 +300,10 @@
 # portainer/portainer-ce:2.40.0-alpine
 # portainer/portainer-ce:2.40.0
 
-postgis/postgis:15-3.5
-postgis/postgis:16-3.5
-postgis/postgis:17-3.5
+# postgis/postgis:15-3.5
+# postgis/postgis:16-3.5
+# postgis/postgis:17-3.5
 
+# ------ 2026-05-02 -------
+postgres:12.17
+--platform=linux/arm64 postgres:12.17
